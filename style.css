@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 18px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: hsl(210, 10%, 33%);
+}
+p{
+    color:hsl(201, 11%, 66%);
+    max-width: 590px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+.header-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+.logo-imagen{
+    width: 50px, 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}   
+header, .header-final{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    margin: 24px;
+}
+.descarga-ios{
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4px 16px rgba(44, 211, 186, 0.2), 0 1.5px 4px rgba(0,0,0,0.08);
+}
+.descarga-mac{
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+}
+.descarga-ios, .descarga-mac{
+    padding: 24px 34px;
+    border-radius: 40px;
+    color: white;
+    margin-top: 40px;
+    width: 75%;
+}
+.separador{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.separador h2{
+    margin-bottom: 24px;
+}
+.computer-section{
+    width: 100%;
+    text-align: center;
+}
+.computer-img{
+    width: 80%;
+}
+.computer-section p,h3{
+    margin: 30px auto;
+}
+.image-devices{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.tools-section{
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+.tools-logos{
+    width: 120%;
+    margin: 0 auto;
+    display: block;
+}
+.tools-2{
+    margin-bottom: 50px; 
+    margin-top: 50px;   
+}
+.tools-3{
+    margin-bottom: 80px;    
+}
+.logos-final{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+#uno, #dos, #tres, #cuatro, #cinco{
+    width: 40%;
+    margin: 30px 20px;
+}
+.header-final{
+    margin-bottom: 100px;
+}
+footer{
+    text-align: center;
+    background-color: hsl(210, 10%, 96%);
+    padding: 60px 0 40px 0;
+}
+.footer-icon{
+    width: 30px;
+    margin: 20px 15px;
+}
+.footer-lista{
+    list-style: none;
+    margin: 20px 0;
+}
+.footer-lista li{
+    margin: 20px 0;
+}
+.footer-lista li:active{
+    color: hsl(171, 66%, 44%);
+}
